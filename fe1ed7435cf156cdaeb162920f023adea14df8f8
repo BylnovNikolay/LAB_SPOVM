@@ -1,0 +1,527 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_d6444775",
+        "filename": "client.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "also use #pragma",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 31
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_f6f18b6b",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "better to use \"#pragma warning( disable : 4507 )\"\n(number of the warning just for the example)",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 31
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_96035f42",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "in project ssodc u should put header \u0026 libraries in the following order:\n1. common system libraries\n2. external libraries\n3. your libraries",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 17
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_76fe9b39",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "better to use #ifdef _MSC_VER (or _WIN32) \u0026 #ifdef __linux__ (or simply linux)",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 6
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_56fdd738",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "not recommended to use all namespace\nu should write like this: std::cout \u003c\u003c ...",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 20
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_968a3fbe",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "try to use strings (possibly)",
+      "range": {
+        "startLine": 23,
+        "startChar": 29,
+        "endLine": 23,
+        "endChar": 38
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_16bd0f68",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "better to pass file link to this function and just open it here",
+      "range": {
+        "startLine": 23,
+        "startChar": 4,
+        "endLine": 23,
+        "endChar": 15
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_5694b7e0",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "better to write like this:\n//f come with arguments\nf.open(...);\nif (!f.is_open())\n{\n//some code\n}",
+      "range": {
+        "startLine": 24,
+        "startChar": 2,
+        "endLine": 24,
+        "endChar": 55
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_76857bab",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "u can also define width of the field",
+      "range": {
+        "startLine": 26,
+        "startChar": 12,
+        "endLine": 26,
+        "endChar": 13
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_f6986b1d",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "use define/const int variable \"BUF_SIZE\" (for example)",
+      "range": {
+        "startLine": 40,
+        "startChar": 14,
+        "endLine": 40,
+        "endChar": 18
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_36f81349",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "more than 80 symbols in string",
+      "range": {
+        "startLine": 44,
+        "startChar": 26,
+        "endLine": 45,
+        "endChar": 26
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_d69fa701",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "also explane magic number \"16\"",
+      "range": {
+        "startLine": 47,
+        "startChar": 26,
+        "endLine": 49,
+        "endChar": 26
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_d6b68789",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "write another function with this cycle",
+      "range": {
+        "startLine": 54,
+        "startChar": 6,
+        "endLine": 64,
+        "endChar": 9
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_b6b9c37b",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "memset(stringBuffer, \u0027\\0\u0027, BUF_SIZE)\n//also define size of the buffer",
+      "range": {
+        "startLine": 79,
+        "startChar": 2,
+        "endLine": 80,
+        "endChar": 31
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_76ac5b35",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "delete 1 enter",
+      "range": {
+        "startLine": 83,
+        "startChar": 0,
+        "endLine": 85,
+        "endChar": 2
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_96b11f92",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "...\nand your code continue working after exception?",
+      "range": {
+        "startLine": 87,
+        "startChar": 4,
+        "endLine": 87,
+        "endChar": 37
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_56ab971d",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "exit(EXIT_FAILURE)",
+      "range": {
+        "startLine": 95,
+        "startChar": 4,
+        "endLine": 95,
+        "endChar": 11
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_f6662b28",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "it makes no sense to write in console about opening pipe",
+      "range": {
+        "startLine": 97,
+        "startChar": 4,
+        "endLine": 97,
+        "endChar": 34
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_d66d6705",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "CS\nif\n{\n    break;\n}",
+      "range": {
+        "startLine": 102,
+        "startChar": 4,
+        "endLine": 102,
+        "endChar": 25
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_9678ffc5",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "\u0027\\0\u0027",
+      "range": {
+        "startLine": 105,
+        "startChar": 29,
+        "endLine": 105,
+        "endChar": 31
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_76733be8",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "better to define/const string this string\nif u decide to use const string, u should write:\n(!strcmp(stringBuffer, CLIENT_DISC.c_str()))",
+      "range": {
+        "startLine": 107,
+        "startChar": 29,
+        "endLine": 107,
+        "endChar": 48
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_56827795",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "also define string",
+      "range": {
+        "startLine": 108,
+        "startChar": 14,
+        "endLine": 108,
+        "endChar": 24
+      },
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_164bcf88",
+        "filename": "server.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1007670
+      },
+      "writtenOn": "2016-04-26T10:51:45Z",
+      "side": 1,
+      "message": "and u can divede this function in any way u want\nbut u should divede it",
+      "revId": "fe1ed7435cf156cdaeb162920f023adea14df8f8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
